@@ -1,0 +1,3 @@
+- create a link to go back to homepage
+- fix positioning so the other pages are all the way to the right
+- start adding more context!
