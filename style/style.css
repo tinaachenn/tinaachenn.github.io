@@ -17,23 +17,27 @@ body {
   position: relative;
   width: 100%;
   top: 0;
+  padding-bottom: 10px;
   /* border: 1px blue solid; */
 }
 
 .title-container {
   display: flex;
   flex-direction: row;
-  padding: 5px;
+  /* padding: 5px; */
   /* border: 1px red solid; */
 }
 
 .title-container a {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  /* margin-top: 25px; */
+  /* margin-bottom: 25px; */
   margin-left: 10px;
+  margin-top: 25px;
+  padding: 0px;
+  height: 20px;
   text-decoration: none;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
   font-weight: bold;
   color: black;
   /* border: 1px blue solid; */
@@ -43,7 +47,7 @@ body {
 .homepage-icon {
   height: 40px;
   width: 40px;
-  margin-top: 15px;
+  margin-top: 10px;
   float: left;
   /* border: 1px solid red; */
 }
@@ -51,14 +55,15 @@ body {
 .navbar-container {
   list-style-type: none;
   /* width: 100%; */
+  padding-top: 10px;
   background-color: #F8F8F8;
-  /* border: 1px red solid; */
+  /* border: 1px green solid; */
 }
 
 .navbar-container ul {
   float: right;
-  margin: 8px;
-  padding: 20px;
+  /* margin: 35px; */
+  /* padding: 20px; */
   /* border: 1px red solid; */
 
 }
@@ -66,7 +71,7 @@ body {
 .navbar-container li {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   margin: 0 px 5px;
   /* border: 1px red solid; */
@@ -74,7 +79,7 @@ body {
 }
 
 .navbar-container a {
-  color: lightgrey;
+  color: darkgrey;
   text-align: center;
   padding: 5px;
   text-decoration: none;
@@ -83,7 +88,7 @@ body {
 }
 
 .navbar-container a:hover {
-  background-color: #F8F8F8;
+  /* background-color: #F8F8F8; */
   /* padding: 10px; */
   color: black;
 }
