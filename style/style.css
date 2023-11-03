@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sofia+Sans+Condensed:wght@500&display=swap');
+
 html {
   height: 100%;
   width: 100%;
@@ -7,6 +9,7 @@ html {
 body {
   padding: 0px;
   margin: 0px;
+  font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
 .header-container {
@@ -17,27 +20,22 @@ body {
   position: relative;
   width: 100%;
   top: 0;
-  padding-bottom: 10px;
+  height: 70px;
   /* border: 1px blue solid; */
 }
 
 .title-container {
   display: flex;
   flex-direction: row;
-  /* padding: 5px; */
   /* border: 1px red solid; */
 }
 
 .title-container a {
-  /* margin-top: 25px; */
-  /* margin-bottom: 25px; */
   margin-left: 10px;
-  margin-top: 25px;
-  padding: 0px;
-  height: 20px;
+  margin-top: 20px;
+  height: 30px;
   text-decoration: none;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
   font-weight: bold;
   color: black;
   /* border: 1px blue solid; */
@@ -47,35 +45,30 @@ body {
 .homepage-icon {
   height: 40px;
   width: 40px;
-  margin-top: 10px;
-  float: left;
+  margin-top: 15px;
   /* border: 1px solid red; */
 }
 
 .navbar-container {
   list-style-type: none;
-  /* width: 100%; */
-  padding-top: 10px;
+  /* padding-top: 10px; */
+  height: 100%;
   background-color: #F8F8F8;
   /* border: 1px green solid; */
 }
 
 .navbar-container ul {
-  float: right;
-  /* margin: 35px; */
-  /* padding: 20px; */
+  padding-left: 20px;
+  margin-top: 25px;
   /* border: 1px red solid; */
 
 }
 
 .navbar-container li {
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 0 px 5px;
   /* border: 1px red solid; */
-
 }
 
 .navbar-container a {
@@ -89,7 +82,6 @@ body {
 
 .navbar-container a:hover {
   /* background-color: #F8F8F8; */
-  /* padding: 10px; */
   color: black;
 }
 
