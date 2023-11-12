@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sofia+Sans+Condensed:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Sofia+Sans+Condensed:wght@500&display=swap");
 
 html {
   height: 100%;
   width: 100%;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
 }
 
-.header-container {
+#header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,13 +24,13 @@ body {
   /* border: 1px blue solid; */
 }
 
-.title-container {
+#title-container {
   display: flex;
   flex-direction: row;
   /* border: 1px red solid; */
 }
 
-.title-container a {
+#title-container a {
   margin-left: 10px;
   margin-top: 20px;
   height: 30px;
@@ -39,62 +39,119 @@ body {
   font-weight: bold;
   color: black;
   /* border: 1px blue solid; */
-
 }
 
-.homepage-icon {
+#homepage-icon {
   height: 40px;
   width: 40px;
   margin-top: 15px;
   /* border: 1px solid red; */
 }
 
-.navbar-container {
+#navbar-container {
   list-style-type: none;
   /* padding-top: 10px; */
   height: 100%;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   /* border: 1px green solid; */
 }
 
-.navbar-container ul {
+#navbar-container ul {
   padding-left: 20px;
   margin-top: 25px;
   /* border: 1px red solid; */
-
 }
 
-.navbar-container li {
+#navbar-container li {
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
   /* border: 1px red solid; */
 }
 
-.navbar-container a {
+#navbar-container a {
   color: darkgrey;
   text-align: center;
   padding: 5px;
   text-decoration: none;
   /* border: 1px blue solid; */
-
 }
 
-.navbar-container a:hover {
+#navbar-container a:hover {
   /* background-color: #F8F8F8; */
   color: black;
 }
 
-.navbar-container a.active {
+#navbar-container a.active {
   color: black;
 }
 
-.content-container {
+#content-container {
   background-color: bisque;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
   text-align: center;
   margin: 0;
+}
+
+#resume-btn {
+  padding: 0px;
+  border: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  background-color: #f8f8f8;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 800px;
+  border: 1px solid red;
+}
+
+/* #contactFormDiv {
+  display: flex;
+  flex-direction: column;
+} */
+
+#contactForm label {
+  display: block;
+  width: 80px;
+  border: 1px solid red;
+}
+
+#contactForm #name {
+  width: 125px;
+}
+
+#contactForm #organization {
+  width: 125px;
+}
+
+#contactForm input {
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#contactForm textarea {
+  margin: 10px;
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  padding-left: 10px;
+  resize: none;
+  border: 1px solid black;
 }
