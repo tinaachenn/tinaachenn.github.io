@@ -43,6 +43,7 @@ h2 {
   font-weight: bold;
   border-radius: 10px;
   background-color: #ffd700;
+  /* background-color: #8b0000; */
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -119,6 +120,33 @@ form #modalButton {
   background: pink;
 }
 
-#content {
+#content h1 {
   text-align: center;
+}
+
+#monse-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /* Adjust as needed */
+  padding-top: 100px;
+}
+
+#monse-links div {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+#monse-links div img {
+  cursor: pointer;
+}
+
+#letter img {
+  height: 140px;
+  width: 210px;
+}
+
+#photo img {
+  height: 150px;
+  width: 120px;
 }

@@ -1,0 +1,19 @@
+html {
+  background-image: url("../images/paper2.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  /* text-align: center; */
+  /* background-color: #8b0000; */
+}
+
+#text {
+  width: 550px;
+  margin: 0 auto;
+  border: 1px red solid;
+  /* color: white; */
+}

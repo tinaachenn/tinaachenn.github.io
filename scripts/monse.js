@@ -15,3 +15,6 @@ const toggleModal = (event) => {
 const form = document.getElementById("passwordForm");
 form.addEventListener("submit", toggleModal);
 
+function goToPage(url) {
+    window.location.href = url;
+}
