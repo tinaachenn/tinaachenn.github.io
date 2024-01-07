@@ -18,3 +18,11 @@ form.addEventListener("submit", toggleModal);
 function goToPage(url) {
     window.location.href = url;
 }
+
+function scaleImage(image) {
+    image.style.transform = "scale(1.2)";
+}
+
+function resetImage(image) {
+    image.style.transform = "scale(1)";
+}

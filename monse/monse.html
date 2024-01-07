@@ -9,18 +9,18 @@
 </head>
 <body>
     <div id="content">
-        <!-- <h1>Happy One Year Anniversary!</h1> -->
+        <h1>Happy One Year Anniversary!</h1>
         <div id="monse-links">
             <div id="letter">
                 <h3>Letter</h3>
-                <img onclick="goToPage('./monseLetter.html')" src="../images/letter.jpeg">
+                <img onclick="goToPage('./monseLetter.html')" onmouseover="scaleImage(this)" onmouseout="resetImage(this)" src="../images/letter.jpeg">
             </div>
             <div id="photo">
                 <h3>Photos</h3>
-                <img onclick="goToPage('./monsePhotos.html')" src="../images/polaroid.webp">
+                <img onclick="goToPage('./monsePhotos.html')" onmouseover="scaleImage(this)" onmouseout="resetImage(this)" src="../images/polaroid.webp">
             </div>
             <div id="videos">
-                <a href="./monseVideos.html">Videos</a>
+                <a href="./monseVideos.html">Art</a>
             </div>
         </div>
 

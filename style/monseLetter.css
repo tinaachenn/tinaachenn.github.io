@@ -1,5 +1,5 @@
 html {
-  background-image: url("../images/paper2.jpeg");
+  background-image: url("../images/paper.jpeg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -12,8 +12,71 @@ html {
 }
 
 #text {
-  width: 550px;
-  margin: 0 auto;
-  border: 1px red solid;
+  width: 440px;
+  margin: 80px auto;
+  font-size: small;
+  /* border: 1px red solid; */
   /* color: white; */
+}
+
+#signature1 {
+  position: absolute;
+  bottom: 400px;
+  right: 550px;
+}
+
+#signature2 {
+  position: absolute;
+  bottom: 380px;
+  right: 555px;
+}
+
+#backButton {
+  position: absolute;
+  bottom: 10px;
+  left: 400px;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px;
+  border-radius: 1px;
+}
+
+#forwardButton {
+  position: absolute;
+  bottom: 10px;
+  right: 400px;
+  cursor: pointer;
+  padding: 10px;
+  border: 2px;
+  border-radius: 1px;
+}
+
+#homeButton {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
