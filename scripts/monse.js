@@ -1,11 +1,11 @@
-const toggleModal = (event) => {
+const validateForm = (event) => {
     event.preventDefault();
-    const passwordInput = document.getElementById("modalPasswordInput");
+    const passwordInput = document.getElementById("passwordInput");
     console.log(passwordInput.value);
     if (passwordInput.value === "buttholedog") {
-        const modal = document.getElementById("password-modal");
-        modal.style.display = "none";
+        const modal = document.getElementById("text");
         modal.classList.remove('error');
+        window.location.href = "monse.html";
     }else {
         passwordInput.classList.add('error');
         passwordInput.value = "";
@@ -13,7 +13,7 @@ const toggleModal = (event) => {
 }
 
 const form = document.getElementById("passwordForm");
-form.addEventListener("submit", toggleModal);
+form.addEventListener("submit", validateForm);
 
 function goToPage(url) {
     window.location.href = url;
