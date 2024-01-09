@@ -139,3 +139,36 @@ form #modalButton {
   height: 150px;
   width: 120px;
 }
+
+#gifs img {
+  margin-top: -20px;
+}
+
+.container {
+  display: inline-block;
+  margin-left: 550px;
+}
+
+.text {
+  font-size: 25px;
+  /* font-family: monospace; */
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(18), cursor 0.4s step-end alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}

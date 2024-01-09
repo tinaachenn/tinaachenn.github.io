@@ -26,3 +26,13 @@ function scaleImage(image) {
 function resetImage(image) {
     image.style.transform = "scale(1)";
 }
+
+// Gifs functions
+
+function changePom(image) {
+    image.src = "../images/pom_eyes.png";
+}
+
+function resetPom(image) {
+    image.src = "../images/pom heart eyes.png";
+}
