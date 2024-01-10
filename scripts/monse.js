@@ -36,3 +36,7 @@ function changePom(image) {
 function resetPom(image) {
     image.src = "../images/pom heart eyes.png";
 }
+
+function reveal(image) {
+    image.remove();
+}

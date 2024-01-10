@@ -1,5 +1,6 @@
 html {
   background-color: #ffd700;
+  font-family: monospace;
 }
 
 h1 {
@@ -11,23 +12,60 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* border: 1px red solid; */
   width: 1400px;
   height: auto;
   justify-content: center;
   align-items: center;
   margin-left: 15px;
   margin-top: 50px;
+  position: relative;
 }
 
-#gifContainer img {
+.gif {
   margin: 20px;
-  /* border-radius: 10px; */
-  width: auto;
-  height: 200px;
+  width: 180px;
+  height: 180px;
+  /* position: absolute; */
 }
 
 .gifBackground {
   margin: 10px;
-  background-color: azure;
+  background-color: white;
+  border-radius: 40px;
+  /* width: 200px; */
+  /* height: 200px; */
+  /* position: absolute; */
+}
+
+.gifCover {
+  position: absolute;
+  z-index: 2;
+  width: 220px;
+  height: 230px;
+}
+
+#homeButton {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#resetButton {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
