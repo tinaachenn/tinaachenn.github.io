@@ -44,6 +44,10 @@ h1 {
   height: 230px;
 }
 
+.gifCover:hover {
+  box-shadow: 0 0 100px white;
+}
+
 #homeButton {
   position: absolute;
   bottom: 20px;
