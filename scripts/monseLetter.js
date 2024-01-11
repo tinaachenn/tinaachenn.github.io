@@ -4,7 +4,7 @@ function forwardButton() {
     const textBox = document.getElementById("text");
     if (count == 0) {
         textBox.innerHTML = `<p> Maybe its twisted -- that I would rather know all of you than have you know anything of me. It's scary when you say 
-        "because I know you." It's terrifying when you can read me, my face, and my emotions so easily. If I could I would 
+        "because I know you." It's terrifying when you can read me, my face, and my emotions so easily. If I could, I would 
         rather make everything about you and stay as far away from the spotlight as possible. Maybe it was a way of protecting myself. 
         Maybe it was a way of me trying to keep you at a constant distance and convincing myself that I could never truly be hurt no 
         matter what you do. But I know that's not what I really want. I want to be known and understood. I want to loved by you. And 
@@ -12,10 +12,11 @@ function forwardButton() {
         that the same love back and all its terms and conditions. To love someone is to mutually exchange the risks of heartbreak. 
         Love is not one-sided. No matter how hard I try to just love you and reject your pleas to understand me in order to protect 
         myself, I know that to truly let love in I have to let you in. You already know more about me than anyone else and maybe
-        sometimes you even know more about me than I do. I hope that you'll continue to be patient with me as I slowly learn to
-        open up and communicate.</p>
+        in some ways you even know more about me than I do. I hope that you'll continue to be patient with me as I slowly learn to
+        be vulnerable and communicate more effectively.</p>
         <p> So how do I know that I love you? How do I know I've figured it out? Beyond the fact that I love your smile, your laugh, 
-        and the way you obsess over songs, books, or movies. Beyond the fact that I love your passion, your drive, your ambition 
+        and the way you obsess over songs, books, or movies and the way you can go on and on about them. Beyond the fact that I love your 
+        passion, your drive, your ambition, 
         and determination. Beyond the fact that I love that no matter how many times you've been put down, you always get up again. 
         Or the fact that you always treat others with kindness when all you've known is the opposite. I love you because I care for you.
         You make me want to be a better person. Someone who can be strong when you can't, someone who is kind when they're not. I want to 
@@ -24,24 +25,26 @@ function forwardButton() {
         am willing to give you all of me just like you've done for me. </p>
         <p> It's been a pleasure being with you for the past year. I can't say it hasn't been quite the tumultuous journey already, but I'm glad 
         we've been able to stuck it out together thus far. I'll be the first to admit that I'm not the best lover. And I'm far from being 
-        the best girlfriend. I'm quite unpredictable, stubborn, and shut down when I'm upset. I'm quick to silence and will try to push myself 
+        the best partner. I'm quite unpredictable, stubborn, and shut down when I'm upset. I'm quick to silence and will try to push myself 
         as far away as possible to avoid confrontation. This past semester has been particularly difficult for me. It was the loneliest and most
-        stressful semester I've had. There were many times where I wondered what it would be like to go to sleep and not have to wake up the next
-        morning. Times where I wondered maybe you would be better off without me in your life and that maybe you wouldn't miss my presence
+        stressful semester I've had. There were many nights where I wondered what it would be like to go to sleep and not have to wake up the next
+        morning. Nights where I wondered maybe you would be better off without me in your life and that maybe you wouldn't miss my presence
         all that much since we were so far apart anyway. </p>`;
         count++;
     } else if(count == 1) {
         textBox.innerHTML = `
-        <p> Yet, regardless of it all, somehow you always seem to make it all better. You've always
+        <p> Yet, regardless of it all, somehow the thought of being with you always seems to make it all better. Somehow just the thought of 
+        you, always seem to make it all better. You've always
         managed to put up with my moodiness, my bad and dry texts, my terrible communication skills, and my distantness. You always seem to know 
         exactly when I'm upset and how to prod me to open up, despite my best efforts to keep it all in. I know it's all so exhausting and I'm 
-        sorry for that. I'm sorry for all the trouble I've cause you when you've already got so much on your plate. I hope you believe me when I say 
+        sorry for that. I'm sorry for all the trouble I've caused you when you've already got so much on your plate. I hope you believe me when I say 
         I'll try my hardest to be a better lover and partner to you and that you'll allow me the pleasure of being your girlfriend for many more 
         years. I hope we get to grow and celebrate all of our achievements and failures together. I hope we get to travel to many more places 
-        together and embark on many new and exciting adventures. I hope I get to spend endless lazy days with you and fall asleep in your arms.
+        together and embark on many new and exciting adventures. I hope we reach out dreams together and I hope I get to spend endless lazy days 
+        with you and nights in your arms.
         </p>
         <p> I know you're just a girl. But I hope you'll be my girl forever. </p>
-        <p>I'm in love with you Monse. Thank you for the past year.</p>
+        <p>I'm in love with you Monse. Thank you for everything.</p>
         <br>
         <p id="signature1">Devotedly yours, </p>
         <p id="signature2">Tina </p>`;
