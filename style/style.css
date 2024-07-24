@@ -1,159 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Sofia+Sans+Condensed:wght@500&display=swap");
 
-html {
-  height: 100%;
-  width: 100%;
-  background-color: #f8f8f8;
-}
-
+html,
 body {
-  padding: 0px;
-  margin: 0px;
-  font-family: "Sofia Sans Condensed", sans-serif;
-}
-
-#header-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  top: 0;
-  height: 70px;
-  /* border: 1px blue solid; */
-}
-
-#title-container {
-  display: flex;
-  flex-direction: row;
-  /* border: 1px red solid; */
-}
-
-#title-container a {
-  margin-left: 10px;
-  margin-top: 20px;
-  height: 30px;
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-  color: black;
-  /* border: 1px blue solid; */
-}
-
-#homepage-icon {
-  height: 40px;
-  width: 40px;
-  margin-top: 15px;
-  /* border: 1px solid red; */
-}
-
-#navbar-container {
-  list-style-type: none;
-  /* padding-top: 10px; */
   height: 100%;
-  background-color: #f8f8f8;
-  /* border: 1px green solid; */
-}
-
-#navbar-container ul {
-  padding-left: 20px;
-  margin-top: 25px;
-  /* border: 1px red solid; */
-}
-
-#navbar-container li {
-  display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
-  /* border: 1px red solid; */
-}
-
-#navbar-container a {
-  color: darkgrey;
-  text-align: center;
-  padding: 5px;
-  text-decoration: none;
-  /* border: 1px blue solid; */
-}
-
-#navbar-container a:hover {
-  /* background-color: #F8F8F8; */
-  color: black;
-}
-
-#navbar-container a.active {
-  color: black;
-}
-
-#content-container {
-  background-color: #202a44;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 700px;
-  color: #f8f8f8;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Sofia Sans Condensed", sans-serif;
 }
 
 h1 {
-  text-align: center;
+  font-size: 70px;
   margin: 0;
 }
 
-#resume-btn {
-  padding: 0px;
-  border: 2px;
+#table-of-contents {
+  position: fixed;
+  text-decoration: none;
+  transform: translate(1200px, 530px);
+  /* border: 2px solid red; */
+  z-index: 1;
+}
+
+#table-of-contents li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+}
+
+#table-of-contents a {
+  text-decoration: none;
+  /* color: black; */
+  color: #00256c;
+  font-size: large;
   font-weight: bold;
-  font-size: 20px;
-  font-family: "Sofia Sans Condensed", sans-serif;
-  background-color: #f8f8f8;
 }
 
-#contactForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/w9.jpg") no-repeat center center/cover;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
+.top-section-content {
+  margin-left: 50px;
+  margin-top: 100px;
+  max-width: 750px;
+  color: white;
+  z-index: -1;
+  position: absolute;
+  /* border: 2px solid white; */
+}
+
+.top-section-content p {
+  font-size: 25px;
+}
+
+.content section {
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.content section.overlay {
+  background: rgba(255, 255, 255, 0.9);
+  background: #faf9f6;
+  padding: 50px;
+}
+
+section.about-me {
   height: 500px;
-  width: 800px;
-  border: 1px solid red;
 }
 
-/* #contactFormDiv {
+#about-me-content {
   display: flex;
-  flex-direction: column;
-} */
-
-#contactForm label {
-  display: block;
-  width: 80px;
-  border: 1px solid red;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
 }
 
-#contactForm #name {
-  width: 125px;
-}
-
-#contactForm #organization {
-  width: 125px;
-}
-
-#contactForm input {
-  margin: 10px;
+#about-me-content div {
+  border: 2px solid black;
+  border-radius: 20px;
   width: 300px;
-  height: 30px;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding-left: 10px;
-}
-
-#contactForm textarea {
-  margin: 10px;
-  width: 300px;
-  height: 100px;
-  border-radius: 5px;
-  padding-left: 10px;
-  resize: none;
-  border: 1px solid black;
+  padding: 20px;
 }
