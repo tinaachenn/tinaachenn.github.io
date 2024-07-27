@@ -82,6 +82,9 @@ h1 {
   padding: 50px;
 }
 
+/* ABOUT ME SECTION */
+/* **************************** */
+
 section#about-me {
   min-height: 500px;
   padding: 50px;
@@ -112,6 +115,10 @@ section#about-me {
   /* border: 2px solid black; */
 }
 
+#about-me h3 {
+  color: #00256c;
+}
+
 #about-me-content div {
   border: 2px solid gray;
   border-radius: 20px;
@@ -132,6 +139,9 @@ section#about-me {
   /* color: black; */
   /* background-color: rgb(23s7, 236, 236); */
 }
+
+/* SKILLS SECTION */
+/* **************************** */
 
 section#skills {
   min-height: 500px;
@@ -158,58 +168,145 @@ section#skills {
   width: 600px;
   height: 600px;
   transform: translate(0px, 20px);
-  /* transform: translate(-10px); */
-  /* border-radius: 50%; */
+  /* border: 2px solid black; */
 }
 
-#experience {
-  /* background-color: #00256c; */
-  /* background-color: #f9f8fb; */
+/* EXPERIENCE SECTION */
+/* **************************** */
+
+section#experience {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+#experience h2 {
+  font-size: 30px;
+  margin: 0px;
+  color: #00256c;
+  /* border: 2px solid black; */
 }
 
 #experience-content {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  width: 1300px;
+  align-items: center;
+  width: 1000px;
   /* background-color: #faf9f6; */
-  /* border: 2px solid black; */
-  margin-top: 20px;
-  margin-bottom: 40px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 40px; */
 }
 
 #experience-content div {
   border: 2px solid gray;
   border-radius: 20px;
-  width: 200px;
+  width: 400px;
   padding: 20px;
   margin: 20px;
-  text-align: center;
-  background-color: #faf9f6;
-  color: #00256c;
+  background-color: #ffffffca;
+  /* color: gray; */
   /* background-color: #5771a0; */
   /* color: rgb(232, 229, 229); */
 }
 
-#experience-content div:hover {
-  /* background-color: #ffbf00; */
+/* #experience-content div:hover {
+  background-color: #ffbf00;
   background-color: #00256c;
-  /* color: black; */
+  color: black;
   color: whitesmoke;
   transition: 0.5s;
-}
+} */
 
 #experience-content h3 {
-  /* border: 2px solid grey; */
-  /* border-radius: 10px; */
-  padding: 5px;
   margin: 0px;
-  font-size: 20px;
-  /* color: black; */
-  /* background-color: rgb(23s7, 236, 236); */
+  font-size: 25px;
+  color: #00256c;
 }
 
-#projects {
+.close-text {
+  margin: 0;
+  margin-top: 2px;
+  padding: 0;
+  /* color: gray; */
+}
+
+/* PROJECTS SECTION */
+/* **************************** */
+
+section#projects {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #f9f8fb;
+}
+
+#projects-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1300px;
+  /* border: 2px solid black; */
+}
+
+#projects img {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  /* margin: 20px; */
+  /* border: 2px solid black; */
+}
+#projects h2 {
+  color: #00256c;
+  /* border: 2px solid black; */
+  font-size: 30px;
+}
+
+#projects h3 {
+  color: #00256c;
+  /* border: 2px solid black; */
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#projects-content div {
+  border: 2px solid gray;
+  border-radius: 20px;
+  width: 400px;
+  padding: 20px;
+  margin: 20px;
+  /* text-align: center; */
+  /* background-color: #5771a0; */
+  /* color: rgb(232, 229, 229); */
+}
+
+#projects a {
+  text-decoration: none;
+  color: black;
+  transition: translate(0px, 10px);
+}
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highlight {
+  /* background-color: #00256c; */
+  color: #00256c;
+}
+
+.info {
+  font-size: 17px;
+  margin-bottom: -12px;
 }
