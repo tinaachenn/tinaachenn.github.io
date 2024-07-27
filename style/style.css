@@ -76,8 +76,9 @@ h1 {
 }
 
 .content section.overlay {
-  background: rgba(255, 255, 255, 0.9);
-  background: #faf9f6;
+  /* background: rgba(255, 255, 255, 0.9); */
+  /* background: #faf9f6; */
+  background: white;
   padding: 50px;
 }
 
@@ -98,7 +99,7 @@ section#about-me {
 
 .about-header {
   font-size: 20px;
-  text-align: center;
+  /* text-align: center; */
   width: 800px;
 }
 
@@ -132,7 +133,7 @@ section#about-me {
   /* background-color: rgb(23s7, 236, 236); */
 }
 
-section#skills-work {
+section#skills {
   min-height: 500px;
   padding: 50px;
   display: flex;
@@ -141,18 +142,32 @@ section#skills-work {
   align-items: center;
 }
 
-#skills-work h2 {
+#skills h2 {
   font-size: 30px;
   color: white;
   margin: 0px;
 }
 
-#skills-work {
+#skills {
   background-color: #00256c;
+  /* background-color: #1e3b70; */
   color: whitesmoke;
 }
 
-#skills-content {
+#skills img {
+  width: 600px;
+  height: 600px;
+  transform: translate(0px, 20px);
+  /* transform: translate(-10px); */
+  /* border-radius: 50%; */
+}
+
+#experience {
+  /* background-color: #00256c; */
+  /* background-color: #f9f8fb; */
+}
+
+#experience-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -164,7 +179,7 @@ section#skills-work {
   margin-bottom: 40px;
 }
 
-#skills-content div {
+#experience-content div {
   border: 2px solid gray;
   border-radius: 20px;
   width: 200px;
@@ -177,7 +192,7 @@ section#skills-work {
   /* color: rgb(232, 229, 229); */
 }
 
-#skills-content div:hover {
+#experience-content div:hover {
   /* background-color: #ffbf00; */
   background-color: #00256c;
   /* color: black; */
@@ -185,7 +200,7 @@ section#skills-work {
   transition: 0.5s;
 }
 
-#askills-content h3 {
+#experience-content h3 {
   /* border: 2px solid grey; */
   /* border-radius: 10px; */
   padding: 5px;
@@ -193,4 +208,8 @@ section#skills-work {
   font-size: 20px;
   /* color: black; */
   /* background-color: rgb(23s7, 236, 236); */
+}
+
+#projects {
+  background-color: #f9f8fb;
 }
