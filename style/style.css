@@ -188,31 +188,40 @@ section#experience {
 
 #experience h2 {
   font-size: 30px;
-  margin: 0;
+  /* margin: 0; */
   color: #00256c;
 }
 
-#experience-content {
+.experience-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  max-width: 100%;
+  max-width: 80%;
+  border: 2px solid red;
 }
 
-#experience-content div {
+.experience-content div {
   border: 2px solid gray;
   border-radius: 20px;
   width: 100%;
+  min-height: 250px;
   max-width: 400px;
   padding: 20px;
   margin: 10px;
   background-color: #ffffffca;
 }
 
-#experience-content h3 {
+.experience-content h3 {
   margin: 0;
-  font-size: 25px;
+  font-size: 23px;
   color: #00256c;
+}
+
+.involvement-h2 {
+  margin-top: 40px;
+  /* border: 2px solid gray; */
 }
 
 .close-text {
@@ -250,7 +259,7 @@ section#projects {
 }
 
 #projects-content div {
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
   border-radius: 20px;
   width: 100%;
   max-width: 400px;
@@ -408,3 +417,15 @@ button {
     width: calc(100% - 40px);
   }
 }
+
+/* .revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.revealable.active {
+  transform: translateY(0px);
+  opacity: 1;
+} */
