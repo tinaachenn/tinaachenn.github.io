@@ -8,6 +8,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: "Sofia Sans Condensed", sans-serif;
+  /* font-family: "Karla", sans-serif; */
 }
 
 h1 {
@@ -15,6 +16,7 @@ h1 {
   margin: 0;
 }
 
+/* NAV BAR */
 #nav {
   position: fixed;
   text-decoration: none;
@@ -50,22 +52,27 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/op1.jpg") no-repeat center center/cover;
+  /* background: url("../images/op1.jpg") no-repeat center center/cover; */
+  background-color: rgb(240, 241, 243);
   z-index: -1;
 }
 
-.top-section-content {
-  margin: 30px;
-  /* transform: translate(10%, 10%); */
+/* INTRO SECTION */
+.intro-content {
+  margin: 100px;
+  /* transform: translate(20%, 20%); */
   max-width: 690px;
   color: #00256c;
   z-index: -1;
   position: absolute;
+  /* border: 2px solid red; */
 }
 
-.top-section-content p {
+.intro-content p {
   font-size: 20px;
 }
+
+/* GENERAL .CONTENT */
 
 .content section {
   min-height: 100vh;
@@ -77,46 +84,7 @@ h1 {
   padding: 50px;
 }
 
-section#about-me {
-  padding: 50px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#about-me h2 {
-  font-size: 30px;
-  color: #00256c;
-  margin: 0;
-}
-
-.about-header {
-  font-size: 20px;
-  max-width: 800px;
-  text-align: center;
-}
-
-#about-me-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 100%;
-  margin-top: 50px;
-}
-
-#about-me h3 {
-  color: #00256c;
-}
-
-#about-me-content div {
-  border: 2px solid gray;
-  border-radius: 20px;
-  width: 200px;
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-}
-
+/* SKILLS SECTION */
 #skills img {
   max-width: 50%;
   height: auto;
@@ -179,6 +147,7 @@ section#skills {
   /* background-color: rgb(23s7, 236, 236); */
 }
 
+/* EXPERIENCE SECTION */
 section#experience {
   display: flex;
   flex-direction: column;
@@ -230,6 +199,7 @@ section#experience {
   padding: 0;
 }
 
+/* PROJECTS SECTION */
 section#projects {
   display: flex;
   flex-direction: column;
@@ -298,6 +268,7 @@ section#projects {
   font-size: 17px;
 }
 
+/* CONTACT SECTION */
 #contact {
   background-color: white;
   width: 100%;
@@ -334,7 +305,7 @@ button {
 }
 
 @media (max-width: 1200px) {
-  .top-section-content {
+  .intro-content {
     margin-top: 50px;
     margin-left: 20px;
     max-width: 90%;
@@ -357,7 +328,7 @@ button {
 }
 
 @media (max-width: 768px) {
-  .top-section-content p {
+  .intro-content p {
     font-size: 20px;
   }
 
@@ -365,12 +336,12 @@ button {
     font-size: 40px;
   }
 
-  #about-me-content {
+  #about-me-cards {
     flex-direction: column;
     align-items: center;
   }
 
-  #about-me-content div {
+  #about-me-cards div {
     width: 90%;
     margin: 10px 0;
   }
@@ -387,7 +358,7 @@ button {
 }
 
 @media (max-width: 480px) {
-  .top-section-content p {
+  .intro-content p {
     font-size: 18px;
   }
 
