@@ -270,16 +270,18 @@ section#projects {
 
 /* CONTACT SECTION */
 #contact {
-  background-color: white;
+  background-color: #00256c;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px 20px;
+  color: #e3e1e6;
 }
 
 #contact h2 {
-  color: #00256c;
+  /* color: #00256c; */
+  /* color: whitesmoke; */
   font-size: 30px;
   text-align: center;
 }
@@ -293,6 +295,7 @@ section#projects {
 #contact-content a {
   margin: 20px;
   font-size: 20px;
+  color: whitesmoke;
 }
 
 button {
@@ -303,6 +306,11 @@ button {
   font-size: 20px;
   margin: 10px;
 }
+
+/* hr {
+  width: 60%;
+  border: 1px solid #00256c;
+} */
 
 @media (max-width: 1200px) {
   .intro-content {

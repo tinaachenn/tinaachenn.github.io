@@ -73,7 +73,7 @@ h1 {
 }
 
 /* GENERAL .CONTENT */
-
+/* 
 .content section {
   min-height: 100vh;
   padding: 50px;
@@ -82,13 +82,14 @@ h1 {
 .content section.overlay {
   background: white;
   padding: 50px;
-}
+} */
 
 /* ABOUT ME SECTION */
 section#about-me {
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #about-me h2 {
@@ -103,16 +104,43 @@ section#about-me {
   /* border: 2px solid red; */
 }
 
-#about-me-text {
-  width: 100%;
-  /* border: 2px solid green; */
-}
 #about-me-header-div {
+  width: 90%;
   margin-bottom: -20px;
-  margin-left: 50px;
-  /* border: 2px solid blue; */
   display: flex;
   flex-direction: row;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+
+#about-me-text {
+  width: 150%;
+  /* border: 2px solid green; */
+}
+
+#about-me-image {
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid red; */
+}
+
+#about-me img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+}
+
+#about-me-cards div {
+  /* border: 2px solid gray; */
+  border-radius: 20px;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(242, 244, 248);
+  /* background-color: rgb(243, 248, 255); */
+  /* background-color: rgb(242, 244, 246); */
 }
 
 #about-me-cards {
@@ -128,33 +156,14 @@ section#about-me {
   color: #00256c;
 }
 
-#about-me img {
-  max-width: 50%;
-  height: auto;
-  border-radius: 10px;
-  margin-left: 100px;
-}
-
-#about-me-cards div {
-  /* border: 2px solid gray; */
-  border-radius: 20px;
-  width: 200px;
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  background-color: rgb(242, 244, 248);
-  /* background-color: rgb(243, 248, 255); */
-  /* background-color: rgb(242, 244, 246); */
-}
-
 /* CONTACT SECTION */
 #contact {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 0px 5px 0px;
-  margin-bottom: -50px;
+  /* padding: 50px 0px 5px 0px; */
+  /* margin-bottom: -50px;   */
   /* border: 2px solid red; */
 }
 
@@ -162,12 +171,14 @@ section#about-me {
   color: #00256c;
   font-size: 30px;
   text-align: center;
+  /* margin: 0; */
 }
 
 #contact-content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  /* margin: 0px; */
 }
 
 #contact-content a {
